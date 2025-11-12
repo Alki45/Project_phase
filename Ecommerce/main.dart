@@ -98,7 +98,7 @@ void main() {
             try {
             newPrice = double.parse(priceInput);
             } catch (e) {
-            print("⚠️ Invalid price. Keeping previous value.");
+            print("Invalid price. Keeping previous value.");
             newPrice = existingProduct.price;
             }
         }
@@ -128,7 +128,7 @@ void main() {
             status: newStatus,
         );
 
-        print("\n✅ Product updated successfully!");
+        print("\nProduct updated successfully!");
         break;
         case '5':
             stdout.write("Enter Product ID to view details: ");
