@@ -33,7 +33,7 @@ Defines the `Product` class and its properties:
 ### 2. `productManager.dart`
 Contains the `ProductManager` class responsible for:
 - Adding new products  
-- Viewing all, completed, or pending products  
+- Viewing all, and sngle detail products 
 - Editing existing product details  
 - Deleting products  
 
